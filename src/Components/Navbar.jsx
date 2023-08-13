@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <div>
       <div className="shadow-sm">
-        <section className="max-w-[1280px] mx-auto">
+        <section className="max-w-[1120px] mx-auto">
           {/* Navbar */}
           <div className="flex flex-col justify-center items-center py-5 space-y-4 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center">
             {/* Logo and Menu Items */}
