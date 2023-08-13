@@ -3,13 +3,14 @@ import heroImg from "../assets/images/hero.svg";
 import heroArrowIcon from "../assets/images/hero-arrow.svg";
 import arrowHead from "../assets/images/arrow-head.svg";
 import pattern from "../assets/images/Pattern.svg";
+import gradient from "../assets/images/bg-gradient.svg";
 
 const Hero = () => {
   return (
-    <div className="max-w-[1120px] mx-auto">
-      <section className="md:flex justify-center items-center gap-5 mt-20">
+    <div className="md:max-w-[1120px] max-w-screen-sm mx-auto">
+      <section className="md:flex justify-center items-center gap-5 mt-20 sm:mx-10">
         {/* HERO SECTION STARTS */}
-        <div className="space-y-[40px]">
+        <div className="space-y-[40px] mx-5">
           <div>
             <h1 className="text-[#111111] font-bold text-5xl">
               Healthcare <br /> - just a fingertip away
@@ -29,19 +30,22 @@ const Hero = () => {
                 Get Started
               </button>
             </div>
-            <div className="flex justify-center items-center">
-              <p className="text-[#7B8997]">Watch How to</p>
-              <img src={heroArrowIcon} alt="" />
-              <img src={arrowHead} alt="" />
+            <div className="flex justify-center items-center ">
+              <p className="text-[#7B8997] hidden sm:block">Watch How to</p>
+              <img className="hidden sm:block" src={heroArrowIcon} alt="" />
+              <img className="hidden sm:block" src={arrowHead} alt="" />
             </div>
           </div>
         </div>
 
-        <div>
+        <div
+          className="mx-5 mt-5"
+          style={{ backgroundImage: `url(${gradient})` }}
+        >
           <div className="relative">
             <img src={heroImg} alt="" />
             <img
-              className="absolute -bottom-14 -right-14 bg-cover"
+              className="absolute hidden sm:block md:-bottom-14 md:-right-14 bg-cover"
               src={pattern}
               alt=""
             />
