@@ -7,7 +7,7 @@ import doctor4 from "../assets/images/doctor4.svg";
 
 const Doctors = () => {
   return (
-    <div className="bg-[#F7FAFC] mb-20 pb-5 pt-20 curved-background__curved ">
+    <div className="bg-[#F7FAFC] mb-20 pb-5 pt-20 ">
       <Container>
         <section className="">
           {/* section heading */}
