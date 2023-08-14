@@ -24,6 +24,11 @@ const SpeacialOffers = () => {
           {/* CARDS */}
           <div className="grid grid-cols-1 md:grid-cols-4 gap-5">
             <div>
+              <div className="relative">
+                <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                  HOT
+                </button>
+              </div>
               <img className="w-[250px]" src={offer1} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -32,7 +37,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                30%
+              </button>
               <img className="w-[250px]" src={offer2} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -41,7 +49,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                HOT
+              </button>
               <img className="w-[250px]" src={offer3} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -50,7 +61,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                HOT
+              </button>
               <img className="w-[250px]" src={offer4} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -59,7 +73,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                40%
+              </button>
               <img className="w-[250px]" src={offer5} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -68,7 +85,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                HOT
+              </button>
               <img className="w-[250px]" src={offer6} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -77,7 +97,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                70%
+              </button>
               <img className="w-[250px]" src={offer7} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
@@ -86,7 +109,10 @@ const SpeacialOffers = () => {
               </div>
             </div>
 
-            <div>
+            <div className="relative">
+              <button className="text-white bg-[#DF5858] px-2  rounded-lg absolute md:right-14 m-2">
+                HOT
+              </button>
               <img className="w-[250px]" src={offer8} alt="" />
               <div className="space-y-2 mt-2">
                 <h3 className="text-[#AFBAB8] font-semibold">TEST discount</h3>
