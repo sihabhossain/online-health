@@ -56,7 +56,7 @@ const Navbar = () => {
               <input
                 type="text"
                 placeholder="Search Hospital, Doctor, Medicine, Company"
-                className="px-3 py-1 w-[80%] sm:w-80 h-[32px] text-gray-500 outline-none outline-gray-300 ring-0 ring-gray-300 rounded-sm"
+                className="px-3 py-1 w-[80%] sm:w-80 h-[32px] text-gray-500 outline-none ring-1 ring-gray-300 rounded-sm focus:ring-gray-700"
               />
               <FiSearch
                 size="35px"
