@@ -6,6 +6,7 @@ import HappyPatient from "../Components/HappyPatient";
 import Doctors from "../Components/Doctors";
 import SpeacialOffers from "../Components/SpeacialOffers";
 import Quotes from "../Components/Quotes";
+import Faq from "../Components/Faq";
 
 const Home = () => {
   return (
@@ -17,6 +18,7 @@ const Home = () => {
       <Doctors></Doctors>
       <SpeacialOffers></SpeacialOffers>
       <Quotes></Quotes>
+      <Faq></Faq>
     </div>
   );
 };
