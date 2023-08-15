@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { FiSearch, FiChevronDown, FiMenu } from "react-icons/fi";
 import engLogo from "../assets/images/u_language-line.svg";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,10 +17,10 @@ const Navbar = () => {
           <div className="flex flex-col justify-center items-center py-5 space-y-4 sm:space-y-0 sm:flex-row sm:justify-between sm:items-center">
             {/* Logo and Menu Items */}
             <div className="flex flex-col items-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-12">
-              <div>
+              <Link to="/">
                 <p className="text-[#1684D4] text-2xl font-bold">LOGO</p>
                 <small className="text-gray-500 block">TAGLINE</small>
-              </div>
+              </Link>
               {mobileMenuOpen || (
                 <>
                   <div className="hidden sm:flex justify-center items-center gap-2">
@@ -69,7 +70,9 @@ const Navbar = () => {
               <img src={engLogo} alt="" className="hidden sm:block" />
               <p className="hidden sm:block text-[#7B8997]">English</p>
               <FiChevronDown className="text-[#D3D5D8]" />
-              <button className="font-semibold">Login</button>
+              <Link to="/login" className="font-semibold">
+                Login
+              </Link>
             </div>
           </div>
 
