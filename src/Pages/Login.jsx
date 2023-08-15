@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import { AiOutlineEye } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -45,7 +46,9 @@ const Login = () => {
 
             <p className="md:mr-72 md:mt-2">
               <span className="text-[#2E4369]">New here?</span>
-              <span className="text-[#1684D4] font-bold"> Create account</span>
+              <Link to="/qrcode" className="text-[#1684D4] font-bold ml-2">
+                Create account
+              </Link>
             </p>
           </div>
 

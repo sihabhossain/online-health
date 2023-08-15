@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiSearch, FiChevronDown, FiMenu } from "react-icons/fi";
+import { BiUserCircle } from "react-icons/bi";
 import engLogo from "../assets/images/u_language-line.svg";
 import { Link } from "react-router-dom";
 
@@ -71,7 +72,10 @@ const Navbar = () => {
               <p className="hidden sm:block text-[#7B8997]">English</p>
               <FiChevronDown className="text-[#D3D5D8]" />
               <Link to="/login" className="font-semibold">
-                Login
+                <BiUserCircle
+                  size={"32"}
+                  className="text-[#6F8691]"
+                ></BiUserCircle>
               </Link>
             </div>
           </div>
